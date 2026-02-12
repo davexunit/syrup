@@ -81,7 +81,7 @@ The size is a base 10 string format beginning with the most significant digit un
 
 Due to the nature of binary data being a arbitrary sequence of octets and not encoding text, it is difficult to show examples within the specification (a text document). However since examples are important we've tried to demonstrate as best as we can:
 
-- an ASCII string with the content `cat` would be formatted as `3:cat` (note: strings are better formatted with the String data type).
+- An ASCII string with the content `cat` would be formatted as `3:cat` (note: strings are better formatted with the String data type).
 - A 32 megabyte jpeg would be `33554432:<jpeg-data-goes-here...>`
 
 ### Strings
@@ -133,7 +133,7 @@ The following JSON:
 }
 ```
 
-would serialize to:
+Would serialize to:
 
 ```syrup
 {3"age30+4"name5"Alice7"isAlivet}
@@ -200,7 +200,7 @@ The algorithm to calculate if `s1` (sequence 1) is less than `s2` (sequence 2):
 2.  Calculate the number of octets in `s2` and define that as `s2_length`
 3.  Define an `index` with a value of `0`
 4.  Return `false` if (`s1_length` is the same as `index`) and (`s2_length` is the same as `index`).
-5.  return `true` if `s1_length` is the same as `index`
+5.  Return `true` if `s1_length` is the same as `index`
 6.  Return `false` if `s2_length` is the same as `index`
 7.  Define `octet1` with the value of the octet at the index `index` in `s1`
 8.  Define `octet2` with the value of the octet at the index `index` in `s2`
