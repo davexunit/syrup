@@ -47,7 +47,7 @@ All floating point values are represented in big endian and are serialized with 
 
 ### Double
 
-All double numeric values are represented in big endian and are serialized with a `D` followed by 8 octets representing the value in [IEEE representation](https://ieeexplore.ieee.org/document/4610935) for single floating point values.
+All double numeric values are represented in big endian and are serialized with a `D` followed by 8 octets representing the value in [IEEE representation](https://ieeexplore.ieee.org/document/4610935) for double floating point values.
 
 ### Positive Integers
 
