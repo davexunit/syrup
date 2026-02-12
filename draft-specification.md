@@ -136,7 +136,7 @@ The following JSON:
 would serialize to:
 
 ```syrup
-{3:age30+4:name5:Alice7:isAlivet}
+{3"age30+4"name5"Alice7"isAlivet}
 ```
 
 Note that the keys occur in the following order: `age`, `name`, and `isAlive` due to sorting.
@@ -169,7 +169,7 @@ A record with the label being the symbol `person` followed by three fields with 
 would be serialized as:
 
 ```syrup
-<6:person5:Alice30+t>
+<6'person5"Alice30+t>
 ```
 
 ### Sets
