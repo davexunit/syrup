@@ -143,7 +143,7 @@ Note that the keys occur in the following order: `age`, `name`, and `isAlive` du
 
 ### Sequences
 
-The sequence should begin with a `[` and be followed by each item in the sequence, these items are serialized according to their respective types. The list ends with a `]`
+The sequence should begin with a `[` and be followed by each item in the sequence, these items are serialized according to their respective types. The list ends with a `]`.
 
 #### Example
 
